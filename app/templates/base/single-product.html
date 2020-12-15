@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <title>Pixie - Product Detail</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{url_for('static',filename='bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/fontawesome.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/tooplate-main.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/owl.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/flex-slider.css')}}">
+<!--
+Tooplate 2114 Pixie
+https://www.tooplate.com/view/2114-pixie
+-->
+  </head>
+
+  <body>
+    
+    <!-- Pre Header -->
+    {%block header%}
+    {%include 'base/header.html'%}
+    {%endblock%}
+
+    <!-- Page Content -->
+    <!-- Single Starts Here -->
+    <div class="single-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <div class="line-dec"></div>
+              <h1>Single Product</h1>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="product-slider">
+              <div id="slider" class="flexslider">
+                <ul class="slides">
+                  <li>
+                    <img src="https://salt.tikicdn.com/cache/w390/ts/product/0b/e4/9d/9819a2afb854e301ebaf93e8e4a8a9d3.jpg	" />
+                  </li>
+                  <!-- items mirrored twice, total of 12 -->
+                </ul>
+              </div>
+              <div id="carousel" class="flexslider">
+                <ul class="slides">
+                  <li>
+                    <img src="https://vcdn.tikicdn.com/cache/w170/ts/review/3a/00/65/0e8ca36b48d618b6867cafeb171822ff.jpg" />
+                  </li>
+                  <li>
+                    <img src="https://vcdn.tikicdn.com/cache/w170/ts/review/83/2f/e2/b6c17d8ebf1417b3cc6b65d69cf50139.jpg" />
+                  </li>
+                  <li>
+                    <img src="https://vcdn.tikicdn.com/cache/w170/ts/review/0a/79/57/53bef0d163d842e47dca7e3e0f3d97be.jpg" />
+                  </li>
+                  <li>
+                    <img src="https://vcdn.tikicdn.com/ts/review/d8/5b/c0/1a9ae355b0169c20d4ec0db796a529be.jpg" />
+                  </li>
+                  <!-- items mirrored twice, total of 12 -->
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-content">
+              <h4>Tôi Từng Nghĩ Mọi Thứ Sẽ Ổn Khi Trở Thành Người Lớn</h4>
+              <h6>76.800 VNĐ</h6>
+              <p>“Tôi từng nghĩ mọi thứ sẽ ổn khi trở thành người lớn” chính là cuốn sách chữa lành mọi đau đớn mà con người phải đối mặt hàng ngày dưới cái mác “người lớn”!
+21 chương sách lột tả chi tiết từng khía cạnh về 21 căn bệnh phổ biến của người hiện đại. Đó là căn bệnh Sợ thứ 2, bệnh Thích mang mặt nạ, bệnh Không thể ăn uống theo ý muốn của mình…. Khi các biểu hiện đã trở thành bệnh lý thì vấn đề sẽ trở nên nghiêm trong hơn, đó là căn bệnh Trầm cảm, Rối loạn cảm xúc lượng cực, Chứng rối loạn hoảng sợ, Nhân cách trầm uất…
+Cuốn sách được kết hợp viết bởi Kim Hea Nam – bác sĩ Tâm thần – chuyên gia phân tâm học nổi tiếng hàng đầu tại Hàn Quốc – đã có kinh nghiệm làm việc với hàng trăm ca trầm cảm tại Bệnh viện Tâm thần Quốc gia và Park Jong Seok – trưởng khoa Y tế Sức khỏe Tâm thần với kinh nghiệm điều trị cho những người mắc các bệnh tâm thần khác nhau tại Bệnh viện Đại học Seoul.
+Bằng kiến thức thực tiễn và kinh nghiệm làm việc lâu năm, cuốn sách đem lại những hiểu biết khoa học về các vấn đề, căn bệnh tâm lý của người hiện đại, thông qua việc triển khai: khái niệm, biểu hiện, cùng giải pháp chữa bệnh để bạn đọc có thể thực hành chữa lành bản thân trên hành trình trưởng thành. Bên cạnh đó 2 tác giả sử dụng chính những câu chuyện từ hàng trăm ngàn bệnh nhân của mình để lấy làm ví dụ thực tế, truyền cảm hứng và sự đồng cảm sâu sắc tới độc giả.
+Như một sự thức tỉnh sau sự ra đi của rất nhiều ngôi sao nổi tiếng vì trầm Cảm tại Hàn Quốc, “Tôi từng nghĩ mọi thứ sẽ ổn khi trở thành người lớn” được coi như người bạn đồng hành an ủi hơn 1 triệu độc giả khắp cả nước.
+              <form action="" method="get">
+                <label for="quantity">Quantity:</label>
+                <input name="quantity" type="quantity" class="quantity-text" id="quantity" 
+                	onfocus="if(this.value == '1') { this.value = ''; }" 
+                    onBlur="if(this.value == '') { this.value = '1';}"
+                    value="1">
+                <input type="submit" class="button" value="Order Now!">
+              </form>
+              <div class="down-content">
+                <div class="categories">
+                  <h6>Category: <span><a href="#">Pants</a>,<a href="#">Women</a>,<a href="#">Lifestyle</a></span></h6>
+                </div>
+                <div class="share">
+                  <h6>Share: <span><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Single Page Ends Here -->
+
+
+    <!-- Similar Starts Here -->
+    <div class="featured-items">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <div class="line-dec"></div>
+              <h1>You May Also Like</h1>
+            </div>
+          </div>
+           <div class="col-md-12">
+            <div class="owl-carousel owl-theme" >
+                 {%for book in books %}
+              <a href="{{url_for('single_product')}}" >
+                <div class="featured-item">
+                  <img src="{{book.HinhAnh}}" alt="Item 1">
+                  <h4>{{book.tenSach}}</h4>
+                  <h6>{{book.triGia}}</h6>
+                </div>
+              </a>
+                {%endfor%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Similar Ends Here -->
+
+
+    <!-- Subscribe Form Starts Here -->
+    {%block footer%}
+    {%include 'base/footer.html'%}
+    {%endblock%}
+    <!-- Sub Footer Ends Here -->
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{url_for('static',filename='jquery/jquery.min.js')}}"></script>
+    <script src="{{url_for('static',filename='bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="{{url_for('static',filename='js/custom.js')}}"></script>
+    <script src="{{url_for('static',filename='js/owl.js')}}"></script>
+    <script src="{{url_for('static',filename='js/isotope.js')}}"></script>
+    <script src="{{url_for('static',filename='js/flex-slider.js')}}"></script>
+
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+
+  </body>
+
+</html>

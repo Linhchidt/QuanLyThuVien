@@ -1,0 +1,12 @@
+{%extends "admin/master.html" %}
+
+{% block body %}
+    {%if current_user.is_authenticated%}
+        <div bacground-color="blue" >
+            <h1>Chào mừng đến với trang Admin</h1>
+            <h1>Hi {{current_user}}</h1>
+        </div>
+    {%else%}
+        {%include "admin/login.html"%}
+    {%endif%}
+{% endblock %}
